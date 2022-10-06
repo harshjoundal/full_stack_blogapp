@@ -34,7 +34,7 @@ export default function Write() {
         }catch(err){}
 
     }
-  }
+  };
   
     return (
     <div className='write'>

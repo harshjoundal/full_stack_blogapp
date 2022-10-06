@@ -7,7 +7,7 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import "./home.css"
 import axios from 'axios'
 import { useLocation } from 'react-router-dom'
-
+// http://localhost:5000
 export default function Home() {
   const [posts,setPosts] = useState([]);
   const {search} = useLocation();
